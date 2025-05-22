@@ -1,0 +1,33 @@
+* {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#temp-input {
+  background-color: rgb(2, 107, 243);
+  width: fit-content;
+  height: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+div > button {
+  background-color: rgb(2, 107, 243);
+  width: 5.5rem;
+  height: fit-content;
+  border: 0.15rem solid;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+div>button:hover {
+  cursor: pointer;
+  /* background-color: white; */
+  border: 0.15rem solid;
+  border-radius: 0.5rem;
+  /* color: rgb(2, 107, 243); */
+}
+#get-temp {
+  color: black;
+}
